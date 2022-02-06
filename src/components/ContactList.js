@@ -15,14 +15,14 @@ const ContactList = () => {
     return (
         <ul className={s.list}>
             {contacts?.map(({ id, name, number }) => (
-                <li key={id} className={s.item}>
+                <li key={id} className={s.contactItem}>
                     <p>
                         {name}: {number}
                     </p>
                     <button
                         type="button"
                         onClick={() => onDelete(id)}
-                        className={s.btn_delete}
+                        className={s.buttonDelete}
                     >
                         Delete
                     </button>
