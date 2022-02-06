@@ -1,0 +1,45 @@
+.container {
+  width: 1170px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.list {
+  margin-top: 20px;
+}
+.item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.btn_delete {
+  font-size: 14px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+input {
+  color: rgb(100, 74, 74);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.add_button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.toast {
+  color: rgb(102, 35, 8);
+  background-color: rgb(130, 207, 116);
+}
